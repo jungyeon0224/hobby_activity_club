@@ -1,22 +1,90 @@
-# Hobby Activity Club (2021145050 유정연)
+# Hobby Activity Club 
 
-Flutter 기반의 취미 공유 플랫폼 앱입니다.
+Flutter로 개발된 **취미 공유 플랫폼 앱**입니다.  
+이 앱은 다양한 취미 활동 정보를 제공하고, 참여 신청 및 후기 작성을 통해 사용자들이 직접 소통하고 활동할 수 있도록 도와줍니다.
 
-## 주요 기능
-- 취미 리스트 확인 및 상세 페이지 보기
-- 신청 폼 작성 (이름, 전화번호 입력)
-- 마이페이지에서 후기 작성 및 목록 보기
-- 참여 인원수 표시
-- 후기 수정 및 삭제 기능
+---
 
-## 실행 방법
+## 🧩 주요 기능
+
+1. **취미 리스트**
+   - 등산, 요리, 독서, 그림 그리기 등 4가지 기본 활동 제공
+   - 각 항목 클릭 시 상세 정보 페이지로 이동
+
+2. **신청 페이지**
+   - 사용자가 이름과 전화번호, 취미 항목을 입력해 신청 가능
+   - 신청 완료 시 마이페이지에서 확인 가능
+
+3. **마이페이지**
+   - 신청한 활동 리스트 확인
+   - 각 활동별 후기 작성 버튼 제공
+
+4. **후기 작성 및 후기 리스트 보기**
+   - 사용자는 각 활동에 대해 자유롭게 후기를 남길 수 있음
+   - 등록된 후기는 '후기 목록 보기'에서 확인 가능
+   - 후기 수정 및 삭제 기능 포함
+
+5. **참여 인원 수 표시**
+   - 각 취미 항목별로 현재 신청 인원수를 실시간으로 표시
+
+6. **위치 기반 추천 (구현 예정)**
+   - 사용자의 위치를 기반으로 가까운 활동 추천 (기획 포함)
+
+---
+
+## 🛠️ 사용 기술
+
+- **Flutter** (UI 프레임워크)
+- **Dart** (프로그래밍 언어)
+- **Android Studio** (개발 환경)
+- 상태 관리는 간단한 전역 리스트로 관리
+
+---
+
+## 💡 앱 실행 방법
+
+1. Flutter 환경이 설정된 로컬 디바이스에서 아래 명령어 입력:
+
+```bash
 flutter pub get
 flutter run
+📸 실행 화면 예시
+취미 리스트 화면
+![스크린샷 2025-06-19 171731](https://github.com/user-attachments/assets/d602ae17-d286-48c6-8792-ab53c5a67a42)
 
-## 시연 이미지
-[2021145050_유정연 기말고사.pptx](https://github.com/user-attachments/files/20777434/2021145050_.pptx)
+신청 폼 입력 화면
+![스크린샷 2025-06-19 171743](https://github.com/user-attachments/assets/60335f16-f76c-463b-916a-673ddea7cf1e)
+![스크린샷 2025-06-19 171751](https://github.com/user-attachments/assets/53a50fb0-e389-415e-bfac-cab627042a7f)
+
+마이페이지
+![스크린샷 2025-06-19 171759](https://github.com/user-attachments/assets/6bebf764-adb4-4b07-9b6e-8ff2ae80ee81)
+
+후기 작성 화면
+![스크린샷 2025-06-19 171806](https://github.com/user-attachments/assets/5aced618-3cb6-49ad-9a72-8a6d387ba10d)
+
+후기 리스트 화면
+![스크린샷 2025-06-19 171824](https://github.com/user-attachments/assets/4b46cbf1-5e78-418d-92f6-7e11a684ae16)
+
+📂 프로젝트 구조
+/lib
+  ├── models
+  │    ├── application.dart
+  │    └── review.dart
+  ├── screens
+  │    ├── main.dart
+  │    ├── join_page.dart
+  │    ├── my_page.dart
+  │    ├── review_page.dart
+  │    ├── review_list_page.dart
+  │    └── *_detail_page.dart (취미 상세 페이지들)
+
+📧 제작자 정보
+이름: 유정연
 
 
 
-## 제작자
-- 유정연 (2021145050)
+
+
+
+
+
