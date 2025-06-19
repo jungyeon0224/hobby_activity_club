@@ -48,22 +48,24 @@ Flutter로 개발된 **취미 공유 플랫폼 앱**입니다.
 ```bash
 flutter pub get
 flutter run
+
+---
 📸 실행 화면 예시
 취미 리스트 화면
-![스크린샷 2025-06-19 171731](https://github.com/user-attachments/assets/d602ae17-d286-48c6-8792-ab53c5a67a42)
+
 
 신청 폼 입력 화면
-![스크린샷 2025-06-19 171743](https://github.com/user-attachments/assets/60335f16-f76c-463b-916a-673ddea7cf1e)
-![스크린샷 2025-06-19 171751](https://github.com/user-attachments/assets/53a50fb0-e389-415e-bfac-cab627042a7f)
 
 마이페이지
-![스크린샷 2025-06-19 171759](https://github.com/user-attachments/assets/6bebf764-adb4-4b07-9b6e-8ff2ae80ee81)
+![스크린샷 2025-06-19 171731](https://github.com/user-attachments/assets/8dfa529b-5208-4919-a9f5-ee06a7d305fe)
+C:\Users\Administrator\OneDrive\사진\스크린샷\스크린샷 2025-06-19 171731.png
+![스크린샷 2025-06-19 171731](https://github.com/user-attachments/assets/058072f4-d027-4f7f-aec8-f8273595b120)
 
 후기 작성 화면
-![스크린샷 2025-06-19 171806](https://github.com/user-attachments/assets/5aced618-3cb6-49ad-9a72-8a6d387ba10d)
+
 
 후기 리스트 화면
-![스크린샷 2025-06-19 171824](https://github.com/user-attachments/assets/4b46cbf1-5e78-418d-92f6-7e11a684ae16)
+
 
 📂 프로젝트 구조
 /lib
